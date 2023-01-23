@@ -8,7 +8,7 @@ def move_btn(event):
     event.widget.place(x=randint(0,250), y=randint(0,250))
 
 def pressed():
-    messagebox.showinfo("title", "I knew you'd say yes <3")
+    messagebox.showinfo("OMG!! I knew it!!", "I knew you'd say yes <3")
 
 title=tk.Label(vent, text='Would you be my GF?')
 title.pack(padx=20, pady=20)
